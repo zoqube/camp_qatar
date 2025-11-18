@@ -12,6 +12,9 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages   # <-- REQUIRED
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,7 +25,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./   # change this to your site’s folder (e.g. ./public)
+          path: ./   # or your site’s build folder
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+
