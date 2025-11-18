@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مخيم قطر</title>
+    <meta name="desription" content= "" />
+	<meta name="keywords" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="css/reg-style.css" media="all" />
+    <script src="js/jquery.min.js"></script>  
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+</head>
+
+<body>
+	<div class="container">
+    	<header class="header" id="header" >
+        	<a id="logo" class="header-logo" rel="home" title=" " href="#"><img  class="header-logo-image" alt="" src="images/logo.png"></a> 
+            <h2 class="reg-header" >استمارة تسجيل طالب</h2>  
+            <div style="clear:both"></div>
+         </header> 
+         
+     </div>
+     
+         <form id="regForm">
+         <div class="form-wrap">
+        	  <h2 class="pheader">مخيم قطر ٢٠١٦ - صيفك على كيفك <br/>(٢٤ يوليو - ١١ أغسطس)<br/> استمارة تسجيل طالب </h2>
+              
+              <p class="blue-box">شكراً لاهتمامكم بالمشاركة في مخيم قطر ٢٠١٦. خلال أسبوعين في مخيم قطر الصيفي يستمتع الطلاب والطالبات برحلة تعليمية تتضمن مجموعة من الأنشطة المتنوعة من ورش عمل وأنشطة فنية وأنشطة رياصية، إلى جانب دروس في مواد اللغة الانجليزية الرياضيات والعلوم. نستقبل في مخيم قطر ٢٠١٦ جميع الطلبة الذين تتراوح أعمارهم بين ١١-١٤ سنة من المدارس المستقلة والمدارس العربية الخاصة. تقدم جميع الدروس والأنشطة باللغة العربية. </p>
+              
+             <p class="red"><b>بيانات الطالب:</b></p>
+             <p class="red"><b>(ملاحظة: يرجى ملء استمارة تسجيل خاصة لكل طالب)</b></p>            
+             <p class="blue"><b>الاسم الأول:</b></p><p><input type="text" class="txtin" name="fname" size="20" value=""  ></p>
+             <p class="blue"><b>اسم العائلة:</b> </p><p><input type="text" class="txtin" name="sname" size="20" value=""  ></p>
+             <p class="blue"><b>النوع:</b>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;أنثى <input type="radio" name="sex" value="F"/>&nbsp; &nbsp;   ذكر <input type="radio" name="sex" value="M"/></p>
+             <p class="blue"><b>تاريخ الميلاد (اليوم/الشهر / السنة ) </b> </p><p><input type="text" class="spin" name="day" size="5" value="" />/<input type="text" class="spin" name="month" size="5" value="" />/<input type="text" class="spin" name="year" size="5" value="" /></p> 
+             <p></p>
+             <p></p>
+             <p></p>
+             <p class="blue"><b>الجنسية:</b></p><p> <input type="text" class="txtin" name="nation" size="20" value="" /></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             <p class="red"><b>اسم المدرسة (التي يداوم فيها حالياً):</b></p><p><input type="text" class="txtin" name="school" size="20" value="" /></p>
+             <p class="blue">نظام المدرسة:  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;مستقلة  <input type="radio" name="stype" value="1"/>&nbsp; &nbsp;   خاصة  <input type="radio" name="stype" value="2"/></p>
+             <p class="blue">الصف الذي تمت الدراسة فيه في العام الأكاديمي 2015/2016:</p><p><input type="text" class="txtin" name="pgrade" size="20" value="" /></p>
+             <p class="blue">الصف الذي سيدخله الطالب في العام الأكاديمي 2016/2017:</p><p><input type="text" class="txtin" name="cgrade" size="20" value="" /></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             <p class="red"><b>عنوان السكن:</b></p><p><input type="text" class="txtin" name="address" size="20" value="" /></p>
+             <p class="blue">هاتف المنزل:</p><p><input type="text" class="txtin" name="phone" size="20" value="" /></p>
+             <p class="blue">الجوال:</p><p><input type="text" class="txtin" name="mobile" size="20" value="" /></p>
+             <p class="blue">البريد الالكتروني :</p><p> <input type="text" class="txtin" name="email" size="20" value="" /></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             <p class="red"><b>بيانات الوالدين / ولي الأمر:</b></p>
+             <p class="blue">اسم الوالد/ ولي الأمر (1):</p><p><input type="text" class="txtin" name="parent1" size="20" value="" /></p>
+             <p class="blue">اسم الوالدة/ ولي الأمر (2):</p><p><input type="text" class="txtin" name="parent2" size="20" value="" /></p>
+             <p class="blue">الوالد/ ولي الأمر (1) هاتف المنزل:</p><p> <input type="text" class="txtin" name="p1phone" size="20" value="" /></p>
+             <p class="blue">الوالد/ ولي الأمر (1) رقم الجوال: </p><p><input type="text" class="txtin" name="p1mobile" size="20" value="" /></p>
+             <p class="blue">الوالد/ ولي الأمر (1) هاتف العمل :</p><p><input type="text" class="txtin" name="p1workphone" size="20" value="" /></p>
+             <p class="blue">الوالد/ ولي الأمر (1) البريد الالكتروني:</p><p><input type="text" class="txtin" name="p1email" size="20" value="" /></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             <p class="blue">أفضل طريقة للتواصل معك (يرجى اختيار)؟</p>
+             <p class="blue"><b>هاتف المنزل</b>  <input type="radio" name="communicate" value="home_phone"/>&nbsp; &nbsp;   <b>الجوال </b><input type="radio" name="communicate" value="com_mobile"/></p>
+             <p class="blue"><b>هاتف العمل</b><input type="radio" name="communicate" value="office_phone"/>&nbsp; &nbsp;  <b>البريد الالكتروني </b><input type="radio" name="communicate" value="com_email"/></p>
+             <p></p>
+             <p></p>
+             <p></p>
+             
+            <p class="red"><b>استخدام المواد والبيانات لأغراض إعلامية:</b> </p>
+            <p class="blue">خلال المخيم، سوف يقوم موظفينا بالتالي: </p>
+            <p class="blue">1.	التقاط صور ثابتة (فوتوغرافية)</p>
+            <p class="blue">2.	التقاط صور متحركة (أفلام/ فيديو)</p>
+            <p class="blue">3.	تسجيل صوتي</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p class="blue">وقد يتم استخدام تلك المواد لاحقاً في عدد من وسائل الإعلام، التي تتضمن ولا تقتصر على، المطبوعات، الاستخدام الرقمي والالكتروني من قبل مخيم قطر 2016 و/أو من قبل الوكلاء المخولين من قبل مخيم قطر 2016. سوف يقوم مخيم قطر 2016 باستخدام الصور والتسجيلات المتوفرة لديه وعرضها للجمهورعبر الانترنت.</p>
+            <p class="blue"><b>أوافق</b>  <input type="radio" name="agree" value="Y"/>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   <b>لا أوافق</b><input type="radio" name="agree" value="N"/></p>
+            <p></p><p></p><p></p>
+            <p></p><p></p><p></p>
+            <p></p><p></p><p></p>
+            <p class="red"><b>بيانات عن /الحالة الطبية/ حمية الطالب: </b></p>
+            <p class="blue">هل لدى ابنك/ابنتك أي مشاكل طبية، حساسية، </p>
+            <p class="blue">أو احتياجات خاصة؟ : &nbsp; &nbsp;&nbsp; &nbsp<b>نعم</b>  <input type="radio" name="needs" value="Y"/>&nbsp; &nbsp; <b>لا</b><input type="radio" name="needs" value="N"/></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p class="blue">إن كان نعم، يرجى إدراجها: </p>
+            <p class="blue">1.</p><p><input type="text" class="txtin" name="needs1" size="20" value="" /></p>
+            <p class="blue">2.</p><p><input type="text" class="txtin" name="needs2" size="20" value="" /></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p class="blue">هل لدى ابنك/ ابنتك أي حمية غذائية خاصة؟</p>
+            <p class="blue"><b>نعم</b>  <input type="radio" name="diet" value="Y"/>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   <b>لا</b><input type="radio" name="diet" value="N"/></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p class="blue">إن كان نعم، يرجى إدراجها: </p>
+            <p class="blue">1.</p><p><input type="text" class="txtin" name="diet1" size="20" value="" /></p>
+            <p class="blue">2.</p><p><input type="text" class="txtin" name="diet2" size="20" value="" /></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p class="red"><b>وثائق إضافية مطلوبة:</b>
+            <p></p>
+            <p></p>
+            <p class="blue"><b>1.</b>	صورة من البطاقة الشخصية أو جواز سفر أحد الوالدين أو ولي الأمر </p>
+            <p></p>
+            <p></p>
+            <p class="blue"><b>2.</b>	صورة شخصية للابن/الابنة (قياس صورة جواز السفر) </p>
+            <p></p>
+            <p></p>
+            <p class="blue"><b>3.</b>	500 ريال قطري رسوم تسجيل </p>
+            <p></p><p></p><p></p>
+            <p></p><p></p><p></p>
+            <p></p><p></p><p></p>
+            <p class="red">أوافق على مشاركة ابني/ابنتي في أنشطة مخيم قطر 2016 سواء الأنشطة الداخلية أو الخارجية. أتفهم بأنه سوف يتم نقل ابني/ابنتي في أوقات محددة خلال مخيم قطر وذلك للقيام برحلات وبعض الأنشطة الأخرى. أثناء الرحلة، سوف يكون الابن/الابنة تحت  الإشراف المباشر من مخيم قطر 2016 وسوف يخضع لجميع اللوائح التنظيمية الخاصة بسلامته/ـتها.</p>
+            <p></p>
+            <p class="red">أوافق على أن يقوم المسؤول الطبي في مخيم قطر 2016 بتقديم الإسعافات الأولية في حالات الطوارئ. أوافق على أن يتخذ مخيم قطر 2016 جميع الإجراءات الإسعافية التي يعتبرها ضرورية لحماية ابني/ابنتي أثناء وجودهم تحت رعايته. </p>
+            <p></p>
+            <p class="red">في حالات الطوارئ الطبية، أتفهم أنه سوف يتم نقل ابني/ابنتي إلى أقرب مركز طبي من قِبل وحدة الطوارئ للعلاج إذا ما كان ذلك ضرورياً. </p>
+            <p><input type="checkbox" class="" name="agreed"  value="agreed" /></p>
+            <p></p>
+            <p class="red">نشكركم على التسجيل في مخيم قطر 2016</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p class="error-message" style="text-align:center;"></p>             
+            <p  class="sumit-Btn"><a id="sumitBtn" href="javascript: void(0);">Send</a></p>
+            <div style="clear:both"></div>
+         </div>
+         </form>
+         
+    
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#sumitBtn").click(function () {
+		$('#regForm').validate({ 
+        rules: {
+            fname: {
+                required: true
+            },
+            sname: {
+                required: true
+            },
+			sex: {
+                required: true
+            },
+            day: {
+                required: true
+            },
+			year: {
+                required: true
+            },
+            month: {
+                required: true
+            },
+			nation: {
+                required: true
+            },
+            school: {
+                required: true
+            },
+			stype: {
+                required: true
+            },
+            address: {
+                required: true
+            },
+			
+			mobile: {
+                required: true
+            },
+            email:  {
+					required: true,
+					email: true
+				},
+			parent1: {
+                required: true
+            },
+            p1mobile: {
+                required: true
+            },
+			p1email: {
+					required: true,
+					email: true
+				},
+			agree: {
+                required: true
+            },
+			
+			needs: {
+                required: true
+            },
+			diet: {
+                required: true
+            },
+			agreed: {
+                required: true
+            }
+        },
+			messages: {
+				email: "Please enter a valid email address",
+				agreed: "Please Agree Our Terms and Conditions"
+			}
+		
+    });
+
+ if ($('#regForm').valid())
+ {
+ $('p.error-message').html('<img src="images/please-wait.gif" >');
+		
+		 var rdata= $("#regForm").serializeArray();
+            $.ajax({
+                    type: "POST",
+                    url: "tcpdf/registration/reg_form.php",
+                    data: rdata,
+                    success:function(success)
+            			{
+					$('#regForm').find("input[type=text], textarea").val("");
+					$('p.error-message').html('<b style="color:green" >شكراً لتسجيلكم في مخيم قطر! <br />لقد تم إرسال التعليمات لبريدك الإلكتروني لإكمال التسجيل في مخيم قطر</b> '); 
+                    	}
+                });
+		} else
+		{
+		$('p.error-message').html('<b style="color:red" >Please fill the required fields</b>');
+		}
+		
+        });
+	
+    });
+</script>
+
+</body>
+</html>

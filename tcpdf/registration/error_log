@@ -1,0 +1,39 @@
+[30-May-2015 10:03:04 America/Chicago] PHP Fatal error:  Call to a member function AddStringAttachment() on a non-object in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 118
+[03-Jun-2015 23:25:05 America/Chicago] PHP Warning:  Creating default object from empty value in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 196
+[03-Jun-2015 23:25:05 America/Chicago] PHP Fatal error:  Call to undefined method stdClass::AddAddress() in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 200
+[03-Jun-2015 23:31:09 America/Chicago] PHP Warning:  Creating default object from empty value in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 194
+[03-Jun-2015 23:31:09 America/Chicago] PHP Fatal error:  Call to undefined method stdClass::IsHTML() in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 197
+[03-Jun-2015 23:52:29 America/Chicago] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 180
+[04-Jun-2015 00:38:44 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/varunvic/public_html/demos/qatarcamp/tcpdf/registration/reg_form.php on line 212
+[13-Jun-2016 17:03:56 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'r6c0d6x4_cq'@'localhost' (using password: YES) in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 177
+[13-Jun-2016 17:03:56 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 181
+[13-Jun-2016 17:03:56 America/Chicago] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 980
+[13-Jun-2016 17:03:56 America/Chicago] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:03:56 America/Chicago] PHP Fatal error:  Problem preparing query (INSERT INTO users (`fname`, `sname`, `phone`, `email`) VALUES (?, ?, ?, ?))  in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:15 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'r6c0d6x4_cq'@'localhost' (using password: YES) in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 177
+[13-Jun-2016 17:09:15 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 181
+[13-Jun-2016 17:09:15 America/Chicago] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 980
+[13-Jun-2016 17:09:15 America/Chicago] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:15 America/Chicago] PHP Fatal error:  Problem preparing query (INSERT INTO users (`fname`, `sname`, `phone`, `email`) VALUES (?, ?, ?, ?))  in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:22 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'r6c0d6x4_cq'@'localhost' (using password: YES) in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 177
+[13-Jun-2016 17:09:22 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 181
+[13-Jun-2016 17:09:22 America/Chicago] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 980
+[13-Jun-2016 17:09:22 America/Chicago] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:22 America/Chicago] PHP Fatal error:  Problem preparing query (INSERT INTO users (`fname`, `sname`, `phone`, `email`) VALUES (?, ?, ?, ?))  in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:54 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'r6c0d6x4_cq'@'localhost' (using password: YES) in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 177
+[13-Jun-2016 17:09:54 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 181
+[13-Jun-2016 17:09:54 America/Chicago] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 980
+[13-Jun-2016 17:09:54 America/Chicago] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:54 America/Chicago] PHP Fatal error:  Problem preparing query (INSERT INTO users (`fname`, `sname`, `phone`, `email`) VALUES (?, ?, ?, ?))  in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:57 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'r6c0d6x4_cq'@'localhost' (using password: YES) in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 177
+[13-Jun-2016 17:09:57 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 181
+[13-Jun-2016 17:09:57 America/Chicago] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 980
+[13-Jun-2016 17:09:57 America/Chicago] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:09:57 America/Chicago] PHP Fatal error:  Problem preparing query (INSERT INTO users (`fname`, `sname`, `phone`, `email`) VALUES (?, ?, ?, ?))  in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:10:06 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'r6c0d6x4_cq'@'localhost' (using password: YES) in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 177
+[13-Jun-2016 17:10:06 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 181
+[13-Jun-2016 17:10:06 America/Chicago] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 980
+[13-Jun-2016 17:10:06 America/Chicago] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:10:06 America/Chicago] PHP Fatal error:  Problem preparing query (INSERT INTO users (`fname`, `sname`, `phone`, `email`) VALUES (?, ?, ?, ?))  in /home4/r6c0d6x4/public_html/campqatar.qa/mysql/MysqliDb.php on line 981
+[13-Jun-2016 17:13:32 America/Chicago] PHP Warning:  fopen(): remote host file access not supported, file://\public_html\campqatar.qa\tcpdf\registration\campqatar-registration.pdf in /home4/r6c0d6x4/public_html/campqatar.qa/tcpdf/include/tcpdf_static.php on line 2440
+[13-Jun-2016 17:13:32 America/Chicago] PHP Warning:  fopen(file://\public_html\campqatar.qa\tcpdf\registration\campqatar-registration.pdf): failed to open stream: no suitable wrapper could be found in /home4/r6c0d6x4/public_html/campqatar.qa/tcpdf/include/tcpdf_static.php on line 2440
