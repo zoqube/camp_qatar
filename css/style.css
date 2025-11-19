@@ -196,48 +196,7 @@ list-style:none;
 -------------------------------------------------- */
 
 
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
 
-.fullscreen-bg__video {
-    position: absolute;
-    background:#d6d6d8 url(../media/images/branding/page-red.png); 
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-	    transform: translate(-50%, -50%);
-     z-index: -95;
-}
-
-.cover{
-    position: absolute;
-    opacity: 1;
-    background-color: rgba(255,255,255,.2);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -90; 
-    
-}
 
 
 
@@ -524,7 +483,7 @@ display:none;
 	right:0px;
 	top:0px;
 	bottom:0px;
-	background:#d6d6d8 url(../media/images/branding/page-red.png) no-repeat center top 100px  fixed; 
+	background: url(../media/images/sitebackground.jpg) no-repeat center top 100px  fixed; 
 	-webkit-background-size: 100% auto;
 	-moz-background-size: 100% auto;
 	-o-background-size: 100% auto;
@@ -941,37 +900,6 @@ font-size:50px;
   -webkit-appearance: none;
 }
 
-.content-text ul li {
-    padding: 0px 0px 20px;
-    direction: rtl;
-	display:flex;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-.content-text ul li .icon {
-    flex-shrink: 0;
-    margin-left: 10px;
-    width: 20px;
-    text-align: center;
-}
-
-.content-text ul li .icon i {
-    color: #2A5A69; /* Or use your preferred color */
-}
-
-/* For larger screens */
-@media (min-width: 600px) {
-    .content-text ul li .icon {
-        width: 22px;
-    }
-}
-
-@media (min-width: 960px) {
-    .content-text ul li .icon {
-        width: 24px;
-    }
-}
 
 .vertical-text {
     writing-mode: vertical-rl;
@@ -982,3 +910,9 @@ font-size:50px;
     padding: 10px 5px !important;
     vertical-align: middle;
 }
+#cw-6 .content-text ul li {
+  list-style-type: none;     /* hides bullets */                /* removes spacing */
+}
+
+
+

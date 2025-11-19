@@ -45,18 +45,21 @@
         
         
         
-           
-    <div id="hidebg" class="fullscreen-bg">
-        <video id="video_background" loop muted class="fullscreen-bg__video"> 
-          
-   	        <source src="media/videos/cq.webm" type="video/webm"> 
-            <source src="media/videos/cq.mp4" type="video/mp4">
-         
-        </video>
-        
-        <div class="cover" data-color="black"></div>
-                
-    </div>
+<div id="hidebg" style="
+  position: fixed;
+  top: 80px; right: 0; bottom: 0; left: 0;
+  background: url('media/images/sitebackground.jpg') center/cover no-repeat;
+  z-index: -100;
+">
+  <div class="cover" style="
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -90;
+  "></div>
+</div>
+
 
         
     <div class="" style="width: 70%; min-width:250px; max-width: 800px; margin: 0 auto; padding: 250px 0 0 0;"> 
