@@ -915,4 +915,14 @@ font-size:50px;
 }
 
 
+.idea-list {
+  direction: rtl;
+  list-style-type: disc;
+  list-style-position: outside; /* brings bullet into the content box */
+  padding: 0;                  /* remove extra padding */
+  margin: 0;
+}
+.idea-list li {
+  line-height: 1.8;            /* improves vertical spacing */
+}
 
