@@ -81,6 +81,9 @@ list-style:none;
 #logo img {
     height: 50px;
 }
+
+
+
 .nav-block
 {
 	display:block;
@@ -401,7 +404,7 @@ display:none;
 	background: #3E849B;
 }
 
-}
+
 .cw-6 .content-text
 {
    color: #3E849B;
